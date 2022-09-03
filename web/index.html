@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="demo-signup-page">
+      <div class="rectangle-div"></div>
+      <div class="rectangle-div1"></div>
+      <b class="proxlight-b">Proxlight</b
+      ><button class="rectangle-button" id="rectangleButton"></button
+      ><input class="rectangle-input" type="text" /><input
+        class="rectangle-input1"
+        type="email"
+      /><input class="rectangle-input2" type="password" />
+      <div class="name-div">Name</div>
+      <div class="email-div">Email</div>
+      <div class="password-div">Password</div>
+      <div class="i-read-and-agree-to-the-terms">
+        I read and agree to the Terms & Conditions
+      </div>
+      <input
+        class="rectangle-input3"
+        type="checkbox"
+        defaultchecked="{true}"
+      /><b class="sign-up-b">SIGN UP</b>
+    </div>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function () {
+          window.open("https://proxlight.github.io/");
+        });
+      }
+      </script>
+  </body>
+</html>
